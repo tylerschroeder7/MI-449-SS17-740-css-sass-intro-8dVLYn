@@ -1,3 +1,79 @@
-a{color:#45425a}button{color:#45425a;border-color:#45425a;background-color:#c8c6d5}
+body {
+  background-color: #dee8a1; }
 
-/*# sourceMappingURL=style.css.map */
+a {
+  color: #45425a;
+  font-family: Arial, Helvetica, sans-serif; }
+
+button {
+  color: #45425a;
+  border-color: #45425a;
+  background-color: #1f1d28;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px; }
+
+h1 {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #45425a; }
+
+h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #575c55; }
+
+h3 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6c7d47; }
+
+h4 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #acc12f; }
+
+h5 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h6 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black; }
+
+input {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+input[type="text"] {
+  border-radius: 10px; }
+
+input[type="password"] {
+  border-radius: 10px; }
+
+img {
+  border-radius: 10px; }
+
+textarea {
+  border-radius: 10px; }
+
+input[type="checkbox"] {
+  font-size: 25px;
+  color: #45425a; }
+
+input[type="radio"] {
+  font-size: 15px;
+  color: #6c7d47; }
+
+table {
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+figcaption {
+  font-family: Arial, Helvetica, sans-serif; }
