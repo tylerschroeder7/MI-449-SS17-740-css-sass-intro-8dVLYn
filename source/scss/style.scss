@@ -1,11 +1,4 @@
-$primary-color: #45425a;
-$secondary-color: #575c55;
-$third-color: #6c7d47;
-$fourth-color: #acc12f;
-$font-base-size: 20px;
-$sans-serif-fonts: Arial, Helvetica, sans-serif;
-$content-borders: 10px;
-$border-style: solid;
+@import "_variables";
 
 body {
   background-color: lighten($fourth-color, 30%);
@@ -71,10 +64,14 @@ input {
 
 input[type="text"] {
   border-radius: $content-borders;
+  font-family: $sans-serif-fonts;
+  font-size: $font-base-size;
 }
 
 input[type="password"] {
   border-radius: $content-borders;
+  font-family: $sans-serif-fonts;
+  font-size: $font-base-size;
 }
 
 img {
@@ -83,6 +80,8 @@ img {
 
 textarea {
   border-radius: $content-borders;
+  font-size: $font-base-size;
+  font-family: $sans-serif-fonts;
 }
 
 input[type="checkbox"] {
